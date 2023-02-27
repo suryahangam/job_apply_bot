@@ -2,7 +2,7 @@ import yaml, pdb
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
-from linkedineasyapply import LinkedinEasyApply
+from apply import LinkedinEasyApply
 from validate_email import validate_email
 
 def init_browser():
